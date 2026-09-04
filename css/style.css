@@ -192,3 +192,17 @@ footer {
     background: #dddddd;
     color: #222;
 }
+
+.search-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.search-container input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}

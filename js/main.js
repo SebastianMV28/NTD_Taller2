@@ -37,3 +37,19 @@ cards.forEach((card, index) => {
 window.addEventListener("load", () => {
     console.log("Bienvenido a ProgSphere");
 });
+
+const searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup", () => {
+    const filter = searchInput.value.toLowerCase();
+
+    document.querySelectorAll(".card").forEach((card) => {
+        const text = card.textContent.toLowerCase();
+
+        if (text.includes(filter)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+});
