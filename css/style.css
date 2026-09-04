@@ -153,3 +153,42 @@ footer {
         margin: 10px 0;
     }
 }
+
+#themeBtn {
+    background: #a855f7;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#themeBtn:hover {
+    background: #9333ea;
+}
+
+/* Tema claro */
+
+.light-theme {
+    background: #f4f4f4;
+    color: #222;
+}
+
+.light-theme header {
+    background: #ffffff;
+}
+
+.light-theme nav {
+    background: #eeeeee;
+}
+
+.light-theme .card {
+    background: #ffffff;
+    color: #222;
+}
+
+.light-theme footer {
+    background: #dddddd;
+    color: #222;
+}
